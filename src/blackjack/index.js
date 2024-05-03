@@ -1,6 +1,7 @@
 
 import _ from 'underscore';
-import { crearDeck } from './usecases/crear-deck.js';
+//import { crearDeck as crearNuevoDeck } from './usecases/crear-deck.js';
+import {crearDeck} from './usecases/crear-deck.js';
 
 //
 /**
@@ -28,7 +29,7 @@ const divCartasComputadora = document.querySelector('#computadora-cartas');
 const puntosHTML = document.querySelectorAll('small');
 
 
-crearDeck();
+deck = crearDeck ( tipos, especiales );
 
 
 // Esta función me permite tomar una carta
