@@ -5,9 +5,9 @@ import _ from 'underscore';
 
 /**
  * Esta función crea un nuevo deck
- * @param {Array<String>} tiposDeCarta 
- * @param {Array<String>} tiposEspeciales 
- * @returns {Array<String>} retorna un nuevo deck de cartas
+ * @param {Array<String>} tiposDeCarta .
+ * @param {Array<String>} tiposEspeciales . 
+ * @returns {Array<String>} retorna un nuevo deck de cartas .
  */
 
 export const crearDeck = (tiposDeCarta, tiposEspeciales) => {
